@@ -39,7 +39,7 @@ my_data = [
     [p_res, 0]
 ]
 
-head = ["P_wf (psi)", "q_0 (sb/day)"]
+head = ["P_bhf (psi)", "q_0 (sb/day)"]
 print(tabulate(my_data, headers=head, tablefmt="grid"))
 
 x = [values_q[0], values_q[1], values_q[2], values_q[3], values_q[4], q_bp, 0]
